@@ -3,9 +3,10 @@ package com.company;
 public abstract class Teacher {
     private String Subject;
     private String Title;
-    public Teacher(double GPA)
+    public Teacher(String Subject, String Title)
     {
         this.Subject= Subject;
+        this.Title= Title;
     }
     public abstract String toString();
     public String getSubject()
@@ -32,4 +33,3 @@ public abstract class Teacher {
         else return false;
     }
 }
-
