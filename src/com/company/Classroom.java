@@ -10,4 +10,9 @@ public class (Subject , Students){
 }
 
 public class (double GPA){
-  double GPA 
+int arrayLength = arr.length;
+int sum = IntStream.of(GPA).sum();
+  sum/ arr.length = classsAvg;)
+    System.out.println ( "The class Average is" + classAvg)
+
+    
