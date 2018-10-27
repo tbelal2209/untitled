@@ -3,10 +3,13 @@ package com.company;
 public abstract class Classroom {
     private String Subject;
     private int Students;
-    public Classroom (String Subject ,int  Students){
+    public Classroom (String Subject , int Students){
         this. Subject = Subject ;
         this. Students = Students;
-        }
+    }
+
+    public Classroom(Student[] students, Teacher teach) {
+    }
 
     public abstract String toString();
     public String getSubject()
@@ -35,11 +38,4 @@ public abstract class Classroom {
 
     public abstract void printClass();
 }
-
-public class (double GPA){
-int arrayLength = arr.length;
-int sum = IntStream.of(GPA).sum();
-  sum/ arr.length = classsAvg;)
-    System.out.println ( "The class Average is" + classAvg)
-
     
