@@ -2,7 +2,7 @@ package com.company;
 
 public abstract class Student {
     private double GPA;
-    public Student(double GPA)
+    public Student(String firstName, String familyName, double GPA)
     {
         this.GPA= GPA;
     }
