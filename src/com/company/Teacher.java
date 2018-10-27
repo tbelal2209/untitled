@@ -3,7 +3,7 @@ package com.company;
 public abstract class Teacher {
     private String Subject;
     private String Title;
-    public Teacher(String Subject, String Title)
+    public Teacher(String folwell, String nathan, String Subject, String Title)
     {
         this.Subject= Subject;
         this.Title= Title;
